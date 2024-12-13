@@ -24,7 +24,7 @@ body {
     font-weight: bold;
     color: #fff;
     text-align: center;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
 .navbar .menu {
@@ -33,12 +33,12 @@ body {
 }
 
 .navbar .menu.left {
-    flex-grow: 1;
+    /* flex-grow: 1; */
     justify-content: flex-start;
 }
 
 .navbar .menu.right {
-    flex-grow: 1;
+    /* flex-grow: 1; */
     justify-content: flex-end;
 }
 
@@ -52,3 +52,50 @@ body {
 .navbar .menu a:hover {
     color: #0ff;
 }
+
+/* .hero {
+    
+} */
+
+.hero h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.projects .project {
+    background-color: #222;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.projects .project img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.projects .project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 255, 255, 0.4);
+}
+
