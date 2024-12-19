@@ -116,3 +116,47 @@ body {
     font-size: 1rem;
     color: #aaa;
 }
+
+.about-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+/* About Section Styling */
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    padding: 20px;
+    background: #111; /* Subtle dark background */
+    border-radius: 15px;
+    max-width: 1200px;
+    text-align: center;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.7); /* Slight shadow for depth */
+    transition: background-color 0.3s ease;
+  }
+  
+  .about-section:hover {
+    background: linear-gradient(145deg, #222, #333); /* Darker gradient on hover */
+  }
+  
+  .about-section p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: #ffffff;
+    max-width: 800px;
+    padding: 20px;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .about-section p:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    color: #ff8a00; /* Text color changes on hover */
+  }
+  
+  
+  
