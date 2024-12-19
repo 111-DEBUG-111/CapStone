@@ -157,6 +157,78 @@ body {
     transform: scale(1.05); /* Slight zoom effect on hover */
     color: #ff8a00; /* Text color changes on hover */
   }
+
+  .feedback-section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.feedback-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.feedback-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.feedback {
+    background-color: black;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 22%;
+    min-width: 250px;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feedback:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.client-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.client-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.client-info div {
+    text-align: left;
+}
+
+.client-info h3 {
+    font-size: 1em;
+    margin: 0;
+    color: white;
+}
+
+.client-info p {
+    margin: 0;
+    font-size: 0.9em;
+    color: grey;
+}
+
+.feedback-text {
+    font-size: 0.95em;
+    color: grey;
+    line-height: 1.6;
+}
   
   
   
